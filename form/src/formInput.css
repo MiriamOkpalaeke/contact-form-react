@@ -1,0 +1,21 @@
+.input-container{
+  text-align: center;
+}
+input{
+  margin-top: 8px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #A91079;
+  width: 300px
+  
+}
+
+p{
+  margin: 0;
+  margin-bottom: 4px;
+  color: #2E0249;
+  font-size: 0.5rem;
+}
+button{
+  width:100%,
+}
