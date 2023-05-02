@@ -7,7 +7,10 @@ import { nanoid } from 'nanoid';
 
 
 const ContactForm = () => {
+  //success state
   const [submitted, setSubmitted] = useState(null);
+
+  // error state
   const [error, setError] = useState(null);
   
 
@@ -50,9 +53,9 @@ const formik = useFormik({
 
    return (
     <form onSubmit={formik.handleSubmit}>
-      {submitted && <h2>form submitted successfully</h2>}
+      {submitted && <h3>form submitted successfully</h3>}
       <div className="input-container">
-        {error && <div>form could not be submitted</div>}
+        {error && <h4>form could not be submitted</h4>}
         <input type="text"
         id="name"
         name="name"
@@ -79,7 +82,7 @@ const formik = useFormik({
         {formik.touched.email && formik.errors.email ? <p>{formik.errors.email }</p> : null} 
       </div>
       <div className="input-container">
-        <label htmlFor="subject">Select Subject</label>
+        <label htmlFor="subject"></label>
         <select name="subject" id="subject" onChange={formik.handleChange} value={formik.values.subject}>
           <option value="">Please select a subject</option>
           <option value="option 1">Issues with Payment</option>
