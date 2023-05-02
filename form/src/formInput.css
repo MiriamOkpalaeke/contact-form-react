@@ -1,0 +1,40 @@
+.input-container{
+  text-align: center;
+  padding: 10px 0;
+}
+input, textarea, select{
+  margin-top: 8px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #A91079;
+  width: 300px;
+  
+}
+input, select{
+  padding: 10px;
+}
+option, select, textarea, input{
+  color: #2E0249;
+}
+p{
+  margin: 0;
+  margin-bottom: 4px;
+  color: #2E0249;
+  font-size: .75rem;
+}
+button{
+  margin-bottom: 10px;
+  padding: 6px;
+  width: 50%;
+  color: white;
+  background-color: #A91079;
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+}
+button:hover{
+background-color: #2E0249;
+}
+button:active{
+  background-color: #a9107958;
+}

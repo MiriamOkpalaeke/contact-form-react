@@ -12,27 +12,11 @@ display: flex;
   min-width: 320px;
   border-radius: 10px;
 }
-
-/*Input field/form styling*/
-.input-container {
-  text-align: center;
+.container:hover{
+  box-shadow: 0 0 8px 4px rgba(228, 53, 111, 0.432);
+}
+h3, h4{
+  color: #2E0249;
+ 
 }
 
-input {
-
-  outline: none;
-  border: none;
-  border-bottom: 2px solid #A91079;
-  width: 300px
-}
-
-p {
-  margin: 0;
-  margin-bottom: 4px;
-  color: #a29aa7;
-  font-size: 0.5rem;
-}
-
-button {
-  width: 100%,
-}

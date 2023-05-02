@@ -4,10 +4,14 @@ import ContactForm from './Components/ContactForm';
 
 function App() {
   return (
+    <>
+    <h2>Contact Form</h2>
     <div className="container">
+      
       <ContactForm/>
       
     </div>
+    </>
   );
 }
 
