@@ -1,0 +1,38 @@
+.container{
+display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  /*height: 100vh;*/
+  margin: 50px auto;
+  width: 100%;
+  background-color: #EEEEEE;
+  max-width: 480px;
+  min-width: 320px;
+  border-radius: 10px;
+}
+
+/*Input field/form styling*/
+.input-container {
+  text-align: center;
+}
+
+input {
+
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #A91079;
+  width: 300px
+}
+
+p {
+  margin: 0;
+  margin-bottom: 4px;
+  color: #a29aa7;
+  font-size: 0.5rem;
+}
+
+button {
+  width: 100%,
+}
