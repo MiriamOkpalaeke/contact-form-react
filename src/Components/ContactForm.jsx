@@ -120,7 +120,7 @@ const ContactForm = () => {
           <p>{formik.errors.message}</p>
         ) : null}
       </div>
-      <button type="submit">{isSubmitting ? <img src={loadingIcon} alt="loading icon" /> : 'Submit'}</button>
+      <button class="button" type="submit">{isSubmitting ? <img src={loadingIcon} alt="loading icon" /> : 'Submit'}</button>
     </form>
   );
 };
